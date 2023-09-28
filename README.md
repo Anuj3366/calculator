@@ -60,5 +60,3 @@ Example:
 Input: 10 + 5 =
 Output: 15
 ```
-
-Feel free to customize this README further to meet your specific needs.
