@@ -1,0 +1,25 @@
+*{
+    background-color: rgb(33, 25, 48);
+    margin: auto;
+}
+.border{
+    height: 400px;
+    width: 230px;
+    border:3px solid black;
+}
+legend{
+    font-weight: bolder;
+    color: red;
+}
+input[type=button]{
+    padding: 20px;
+    background-image:linear-gradient(to right,yellow,orange,rgb(145, 226, 145));
+    font-weight: 900;
+    height: 63px;
+    width: 50px;
+}
+input[type=text]{
+    padding: 20px;
+    background-color: aquamarine;
+    font-weight: bolder;
+}

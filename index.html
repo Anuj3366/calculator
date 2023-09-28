@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="../calculator/calculator.css">
+    <script src="../calculator/Calculator.js"></script>
+</head>
+    <body>
+        <form name = "form" id="calculator" autofocus autocomplete="on">
+            <fieldset class="border">
+                <legend>Calculator</legend>
+                <input type ="text" name = "ans" class="start" placeholder="Enter Value" autofocus>
+                <br><br>
+                <input type = "button" value = "1" onclick="calculator.ans.value += '1'">
+                <input type = "button" value = "2" onclick="calculator.ans.value += '2'">
+                <input type = "button" value = "3" onclick="calculator.ans.value += '3'">
+                <input type = "button" value = "+" onclick="calculator.ans.value += '+'">
+                <br><br>
+                <input type = "button" value = "4" onclick="calculator.ans.value += '4'">
+                <input type = "button" value = "5" onclick="calculator.ans.value += '5'">
+                <input type = "button" value = "6" onclick="calculator.ans.value += '6'">
+                <input type = "button" value = "-" onclick="calculator.ans.value += '-'">
+                <br><br>
+                <input type = "button" value = "7" onclick="calculator.ans.value += '7'">
+                <input type = "button" value = "8" onclick="calculator.ans.value += '8'">
+                <input type = "button" value = "9" onclick="calculator.ans.value += '9'">
+                <input type = "button" value = "X" onclick="calculator.ans.value += '*'">
+                <br><br>
+                <input type = "button" value = "C" onclick="calculator.ans.value = ''">
+                <input type = "button" value = "0" onclick="calculator.ans.value += '0'">
+                <input type = "button" value = "=" onclick="calculator.ans.value = eval(calculator.ans.value)">
+                <input type = "button" value = "/" onclick="calculator.ans.value += '/'">
+                <br>
+                <br>
+            </fieldset>
+        </form>
+    </body>
+</html>
